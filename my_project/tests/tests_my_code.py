@@ -8,3 +8,12 @@ def test_addition():
 	else:
 		status = 'FAILURE'
 	assert status == 'SUCCESS'
+
+def test_substract():
+        output = lib_logic.substract(15,2)
+	if output < 10:
+		status = 'SUCCESS'
+	else:
+		status = 'FAILURE'
+	assert status == 'SUCCESS'
+	
